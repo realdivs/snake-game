@@ -56,7 +56,7 @@ export const SnakeGame = () => {
         copySnakeBody.unshift(newHead);
         return copySnakeBody;
       });
-    }, 1000);
+    }, 200);
 
     const handleDirection = (e) => {
       const key = e.key;
